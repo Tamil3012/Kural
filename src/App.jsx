@@ -20,7 +20,7 @@ export const App = () => {
       setError(''); // Clear any error message
     } else {
       setUser(null);
-      setError('User not found');
+      setError('Please check the Number');
     }
   };
 
