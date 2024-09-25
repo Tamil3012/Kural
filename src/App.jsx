@@ -27,7 +27,7 @@ export const App = () => {
   return (
       <div className='h-full'>
           <Header/>
-          <div className=' w- flex justify-center items-center my-10'>
+          <div className=' w- flex justify-center items-center my-7'>
 
               <div className='bg-main-cl sm:w-5/6 w-full py-10 sm:px-10 px-0 h-auto rounded-2xl mx-3 sm:mx-0 shadow-[0px_0px_50px_#d5afac]'>
                   <h2 className='font-extrabold text-3xl pb-10 text-center'>திருக்குறள்</h2>
