@@ -25,7 +25,7 @@ export const App = () => {
   };
 
   return (
-      <>
+      <div className='h-full'>
           <Header/>
           <div className=' w- flex justify-center items-center my-10'>
 
@@ -72,7 +72,7 @@ export const App = () => {
           </div>
           
           <Footer/>
-      </>
+      </div>
        
   );
 }
