@@ -14,6 +14,7 @@ export default {
         'main-bg': "url('./image/bg.png')",
         'main-bg1': "url('./image/bg1.png')",
         'main-bg2': "url('./image/bg2.png')",
+        'board': "url('./image/board.png')",
 
       },
       boxShadow: {

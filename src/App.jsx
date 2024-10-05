@@ -4,6 +4,7 @@ import { RiSearchEyeLine } from "react-icons/ri";
 import { PiFlowerFill } from "react-icons/pi";
 import { Header } from './Comp/Header';
 import { Footer } from './Comp/Footer';
+import Slider from './Comp/Slider';
 
 
 
@@ -28,7 +29,7 @@ export const App = () => {
   return (
       <div className='h-full'>
           <Header/>
-          <div className=' w-full flex justify-center items-center my-6'>
+          <div className=' w-full flex justify-center items-center my-7'>
 
               <div className=" bg-gradient-to-r from-center-cl via-main-cl to-center-cl shadow-3xl sm:w-5/6 w-full py-10 sm:px-10 px-0 h-auto rounded-2xl mx-3 sm:mx-0 ">
                   <h2 className='font-extrabold text-3xl pb-10 text-center'>திருக்குறள்</h2>
@@ -47,7 +48,7 @@ export const App = () => {
                   </div>
 
                   <div className=''>
-                    <div className='flex '>
+                    <div className='flex'>
 
                       <div className='font-bold mx-1 underline flex'><PiFlowerFill className='me-1 mt-1.5'/> குறள் : </div>
 
@@ -71,7 +72,7 @@ export const App = () => {
               </div>
 
           </div>
-          
+          <Slider/>
           <Footer/>
       </div>
        
