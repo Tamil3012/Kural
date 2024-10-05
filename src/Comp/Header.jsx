@@ -1,5 +1,5 @@
 // import React from 'react'
-import logo from './../image/logo.png'
+import logo from './../image/logo0.png'
 import { RiInstagramFill } from "react-icons/ri";
 import { BsGithub } from "react-icons/bs";
 
@@ -7,9 +7,9 @@ import { BsGithub } from "react-icons/bs";
 
 export const Header = () => {
   return (
-    <header>
+    <header className='sticky top-0'>
    
-        <div className='w-full bg-gray-200 py-1 flex justify-around items-center'>
+        <div className='w-full bg-gray-200 py-1 flex justify-around items-center '>
             <div className="container sm:mx-10 mx-4 ">
                 <div><img className='w-14' src={logo} alt="" /></div>
             </div>

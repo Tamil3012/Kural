@@ -7,10 +7,17 @@ export default {
   theme: {
     extend: {
       colors:{
-        'main-cl' : '#d6aeac',
+        'main-cl' : '#f6c510',
+        'center-cl' : '#dc990c',
       },
-      boxShadow:{
-        'box-shadow': '0px 0px 30px black'
+      backgroundImage: {
+        'main-bg': "url('./image/bg.png')",
+        'main-bg1': "url('./image/bg1.png')",
+        'main-bg2': "url('./image/bg2.png')",
+
+      },
+      boxShadow: {
+        '3xl': '0 0px 40px #f6c510',
       }
     },
   },
