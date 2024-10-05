@@ -17,7 +17,7 @@ export default {
 
       },
       boxShadow: {
-        '3xl': '0 0px 40px #f6c510',
+        '3xl': '0 0px 40px -5px #dc990c',
       }
     },
   },
